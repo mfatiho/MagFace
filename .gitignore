@@ -130,3 +130,8 @@ dmypy.json
 
 # Mac file
 *DS_Store
+eval/eval_recognition/data
+eval/eval_recognition/features
+.idea/
+*.pth
+*.tar

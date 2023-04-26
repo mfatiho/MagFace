@@ -3,7 +3,7 @@ FEAT_SUFFIX=$2
 NL=$3
 
 ARCH=iresnet${NL}
-FEAT_PATH=./features/magface_${ARCH}/
+FEAT_PATH=./features/magface_${ARCH}
 mkdir -p ${FEAT_PATH}
 
 python3 ../../inference/gen_feat.py --arch ${ARCH} \
